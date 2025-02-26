@@ -1,0 +1,44 @@
+
+Datasets for  Online retail churn
+
+1.
+Downloaded from UCI Online Retail Dataset
+the dataset size (541910,8)
+5 lakhs rows and 8 columns 
+
+https://archive.ics.uci.edu/dataset/352/online+retail
+
+Features are only 6 and  not more relavent to do the analysis 
+and the dataset is Old dataset( 2010-11 )
+almost 11 years old dataset.
+Not considering it
+
+InvoiceNo,
+stockCode,
+Description,
+Quantity,
+InvoiceDate,
+UnitPrice,
+CustomerID,
+Country
+	
+2.	
+https://www.kaggle.com/datasets/hassaneskikri/online-retail-customer-churn-dataset
+has shape (1000,15)
+Considering less amount of data. Avoided this dataset
+
+3. https://www.kaggle.com/datasets/utkalk/large-retail-data-set-for-eda
+has shape (10000000,70) 
+Huge size of dataset
+contains both Instore and online churn
+after removing instore (990003,68)
+Lot of aggreation columns details were present ( Average,total , Min max )
+The dataset is very Equally distributed for all the classes of a feature that results in not able to get any insight on the classes
+
+4. 
+https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction/data
+has shape (5630, 20)
+columns are relevent for problem statement
+dataset size is good and missing values are less
+
+
