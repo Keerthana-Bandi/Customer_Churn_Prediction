@@ -1,0 +1,41 @@
+# Core Python Packages
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+
+# Machine Learning
+scikit-learn==1.5.2
+joblib==1.4.2
+
+# Deep Learning & Transformers (Optional)
+torch==2.5.1
+transformers==4.48.1
+sentence-transformers==3.3.0
+
+# API Frameworks
+fastapi==0.115.5
+uvicorn==0.32.0
+starlette==0.41.2
+
+# Web & HTTP Requests
+requests==2.32.3
+httpx==0.27.2
+
+# JSON Processing
+pydantic==2.9.2
+jsonschema==4.23.0
+
+# Logging & Utilities
+loguru==0.7.2
+tenacity==9.0.0
+
+# Async Support
+asgiref==3.8.1
+aiohttp==3.11.2
+
+# Other Useful Libraries
+tqdm==4.67.0
+matplotlib==3.9.3
+seaborn==0.13.2
+pyyaml==6.0.2
+python-dotenv==1.0.1
